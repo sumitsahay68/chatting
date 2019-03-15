@@ -1,0 +1,10 @@
+<h1>Sahay</h1>
+<h2>
+  Enter Message : <input type="text" #sahayinput>
+  <button type="button" (click) = "send(sahayinput.value)">Send</button>
+</h2>
+<h4>
+  <p *ngFor="let msg of msgs">
+    {{msg}}
+  </p>
+</h4>

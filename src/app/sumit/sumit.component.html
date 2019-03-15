@@ -1,0 +1,10 @@
+<h1>Sumit</h1>
+<h2>
+  Enter Message : <input type="text" #sumitinput>
+  <button type="button" (click) = "send(sumitinput.value)">Send</button>
+</h2>
+<h4>
+  <p *ngFor="let msg of msgs">
+    {{msg}}
+  </p>
+</h4>
